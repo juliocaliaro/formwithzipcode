@@ -1,0 +1,44 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+fieldset {
+    background-color: rgb(226, 226, 226)
+}
+
+.formulario input {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+    height: 20px;
+    display: block;
+    position: relative;
+}
+
+.eddress {
+    display:flex;
+    flex-direction: column;
+}
+
+#lista {
+margin-bottom: 10px;
+}
+
+.botao {
+    margin-top: 10px;
+    height: 24px;
+    width: 55px;
+}
+
+.eddress div {
+    display: flex;
+}
+
+.fieldset {
+    max-width: fit-content;
+} 
+
+/* TODO:
+- salvar os formularios dentro do responses.json
+- incluir uma lista com as respostas
+*/
